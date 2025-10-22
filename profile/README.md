@@ -2,13 +2,9 @@
 <img width="426" height="74" alt="스크린샷 2025-10-22 100441" src="https://github.com/user-attachments/assets/6d5b33b6-69cb-4ad2-bfd6-bf7841b1ee6d" />
 </p>
 
----
-
 # About
 > Monew는 여러 뉴스 API를 통합하여 사용자 맞춤 뉴스를 제공하고, 사용자 활동 내역 및 의견을 기록/관리할 수 있는 플랫폼입니다.  
 > PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Spring Batch로 뉴스 백업/수집을 자동화하며, Spring Actuator와 Prometheus를 통한 모니터링을 지원합니다.
-
----
 
 ## Table of Contents
 - [프로젝트 소개](#프로젝트-소개)
@@ -22,8 +18,6 @@
 - [API 문서](#api-문서)
 - [협업 문서](#협업-문서)
 
----
-
 ## 프로젝트 소개
 - **기간:** 2025.10.17 ~ 2025.11.10  
 - **목적:** 뉴스 API 통합 및 맞춤형 뉴스 제공, 활동/의견 관리  
@@ -32,8 +26,6 @@
   - Spring Batch로 뉴스 수집/백업 자동화
   - Spring Actuator + Prometheus 모니터링
   - 대용량 데이터 처리와 안정성 고려한 설계
-
----
 
 ## 팀원 구성
 
@@ -45,8 +37,6 @@
 | 박지석 | 백엔드 개발 | [GitHub](https://github.com/commicat2) |
 | 이성훈 | 백엔드 개발 | [GitHub](https://github.com/polodumbo) |
 | 주세훈 | 백엔드 개발 | [GitHub](https://github.com/Jusehun) |
-
----
 
 ## 기술 스택
 
@@ -69,8 +59,6 @@
 - Notion
 - Discord
 
----
-
 ## 레포지토리 구성
 
 | Repo | 설명 |
@@ -79,15 +67,11 @@
 | `monew-batch` | 뉴스 수집 및 백업 Batch 서비스 |
 | `monew-actuator` | 모니터링 및 상태 관리 서비스 |
 
----
-
 ## 브랜치 전략
 - `main`: 배포용  
 - `develop`: 통합 개발  
 - `feature/*`: 기능 단위 개발  
   - 예시: `feature/news-api`, `feature/user-preference`, `feature/batch-backup`, `feature/actuator-monitor`  
-
----
 
 ## 커밋 컨벤션
 - `feat`: 새로운 기능 추가  
@@ -96,8 +80,6 @@
 - `test`: 테스트 코드 추가  
 - `docs`: 문서 변경  
 - `chore`: 빌드/설정 관련 작업  
-
----
 
 ## 프로젝트 구조 (예시)
 
@@ -117,9 +99,8 @@ monew-mvc/
 │  │  └─ resources/
 │  │       └─ application.yml
 └─ test/
-
----
 ```
+
 ## 팀원별 구현 예정 기능
 
 | 팀원 | 기능 |
@@ -130,8 +111,6 @@ monew-mvc/
 | 박지석 | 기능 d 구현 |
 | 이성훈 | 기능 e 구현 |
 | 주세훈 | 기능 f 구현 |
-
----
 
 ## API 문서
 - [Swagger UI ↗](http://sprint-project-1196140422.ap-northeast-2.elb.amazonaws.com/sb/monew/api/swagger-ui/index.html)
