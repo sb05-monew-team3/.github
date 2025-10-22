@@ -1,8 +1,8 @@
 <p align="center">
-<img width="426" height="74" alt="스크린샷 2025-10-22 100441" src="https://github.com/user-attachments/assets/6d5b33b6-69cb-4ad2-bfd6-bf7841b1ee6d" />
+<img width="426" height="74" alt="monew" src="https://github.com/user-attachments/assets/98ab2834-7986-45a4-8b8e-e59660d1dcf1" />
 </p>
 
-# About
+## About
 > Monew는 여러 뉴스 API를 통합하여 사용자 맞춤 뉴스를 제공하고, 사용자 활동 내역 및 의견을 기록/관리할 수 있는 플랫폼입니다.  
 > PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Spring Batch로 뉴스 백업/수집을 자동화하며, Spring Actuator와 Prometheus를 통한 모니터링을 지원합니다.
 
