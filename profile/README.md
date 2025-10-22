@@ -1,6 +1,7 @@
 <p align="center">
-<img width="426" height="74" alt="monew" src="https://github.com/user-attachments/assets/98ab2834-7986-45a4-8b8e-e59660d1dcf1" />
+  <img width="852" height="148" alt="monew" src="https://github.com/user-attachments/assets/98ab2834-7986-45a4-8b8e-e59660d1dcf1" />
 </p>
+
 
 ## About
 > Monew는 여러 뉴스 API를 통합하여 사용자 맞춤 뉴스를 제공하고, 사용자 활동 내역 및 의견을 기록/관리할 수 있는 플랫폼입니다.  
