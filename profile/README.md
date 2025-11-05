@@ -78,8 +78,8 @@ PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Sprin
 | Repo | 설명 |
 |------|------|
 | `monew-mvc` | 메인 API 서버 (Spring Boot MVC) | https://github.com/sb05-monew-team3/monew-mvc.git |
-| `monew-batch` | 뉴스 수집 및 백업 Batch 서비스 |
-| `monew-actuator` | 모니터링 및 상태 관리 서비스 |
+| `monew-batch` | 뉴스 수집 및 백업 Batch 서비스 |--------------------------------------------------|
+| `monew-actuator` | 모니터링 및 상태 관리 서비스 |--------------------------------------------------|
 
 ## 브랜치 전략
 
