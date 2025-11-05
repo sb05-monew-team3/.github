@@ -43,7 +43,6 @@ PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Sprin
 
 ## 기술 스택
 
-
 ### Backend
 
 - Spring Boot
@@ -54,6 +53,13 @@ PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Sprin
 
 - PostgreSQL
 - MongoDB
+
+### Sever
+
+- AWS ECR
+- AWS ECS
+- AWS S3
+- AWS RDS
 
 ### Batch / Monitoring
 
