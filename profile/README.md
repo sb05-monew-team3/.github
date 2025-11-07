@@ -3,26 +3,29 @@
 </p>
 
 # Monew
-Monew는 여러 뉴스 API를 통합하여 사용자 맞춤 뉴스를 제공하고, 사용자 활동 내역 및 의견을 기록/관리할 수 있는 플랫폼입니다.  
+**Monew**는 여러 뉴스 API를 통합하여 사용자 맞춤 뉴스를 제공하고, 사용자 활동 내역 및 의견을 기록/관리할 수 있는 플랫폼입니다.
+
 PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Spring Batch로 뉴스 백업/수집을 자동화하며, Spring Actuator와 Prometheus를 통한 모니터링을 지원합니다.
 
-## 개발 기간
+---
+
+## 📆 개발 기간
 - **기간:** 2025.10.17 ~ 2025.11.10
 - **목적:** 뉴스 API 통합 및 맞춤형 뉴스 제공, 활동/의견 관리
-- - **특징:**
+- **특징:**
   - PostgreSQL + MongoDB 기반 데이터 안정성
   - Spring Batch로 뉴스 수집/백업 자동화
   - Spring Actuator + Prometheus 모니터링
   - 대용량 데이터 처리와 안정성 고려한 설계
+ 
+---
 
-## Table of Contents
-
+## 📚 Table of Contents
 - [프로젝트 소개](#Monew)
 - [개발 기간](#개발-기간) 
 - [개발 환경](#개발-환경)
 - [기술 스택](#기술-스택)
 - [레포지토리 구성](#레포지토리-구성)
-- [브랜치 전략](#브랜치-전략)
 - [커밋 컨벤션](#커밋-컨벤션)
 - [프로젝트 구조](#프로젝트-구조)
 - [팀원 구성](#팀원-구성)
@@ -42,15 +45,61 @@ PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Sprin
 - Monitoring
 - 아이디어 회의 : Notion, git/github, Discord, zep
 
-## 레포지토리 구성
-
+## 🗂️ 레포지토리 구성
 | Repo | 설명 |
 |------|------|
 |  [monew-mvc](https://github.com/sb05-monew-team3/monew-mvc.git)  | 메인 API 서버 (Spring Boot MVC) | |
 |[monew-batch](https://github.com/sb05-monew-team3/monew-batch.git)  | 뉴스 수집 및 백업 Batch 서비스 ||
 | [monew-actuator](https://github.com/sb05-monew-team3/monew-actuator.git) | 모니터링 및 상태 관리 서비스 ||
 
-## 팀원 구성
+## 🧾 커밋 컨벤션
+### 기본 구조
+```terminal
+<type>(<scope>): <subject>
+
+<body>
+
+<footer>
+``` 
+> **예시:**
+> `feat(UserService) : add login method
+
+### Type 분류류
+| 타입 | 설명 |
+| ---- | -----|
+| feat | 새로운 기능 추가 |
+| fix  | 버그 수정 |
+| docs | 문서 수정 |
+| style | 코드 스타일 변경(포매팅, 세미콜론 등) |
+| design | UI / CSS 디자인 변경 |
+| test | 테스트 코드 관련 변경 |
+| refactor | 리펙토링(동작 변화 없음) |
+| build | 빌드 파일 수정 |
+| ci | CI 설정 수정 |
+| perf | 성능 개선
+| chore | 자잘한 수정, 설정 변경 |
+| rename  | 파일/폴더명 변경 |
+| remove | 파일 삭제 |
+
+### Scope
+- 변경된 기능 또는 모듈명을 명시합니다.
+
+### Subject 작성 규칙
+- 첫 글자는 소문자로 지정합니다.
+- 문장 마침표(`.`) 사용 금지.
+- 50자 이하로 간결하게 작성합니다.
+- "무엇을" 했는지 중심으로, **명령형 동사 원형** 사용
+  - ✅ `add`, `update`, `fix`, `remove`, `refactor`
+  - ❌ `added`, `fixed`
+
+### Body 작성 규칙
+- 각 줄은 **72자 이하**로 작성합니다.
+- "무엇을" 변경했는지보다는 **왜 변경했는지(이유)** 중심으로 작성합니다.
+
+### Footer 작성규칙
+- 관련 이슈 번호 또는 참고 링크를 명시합니다.
+
+## 👥 팀원 구성
 
 | 이름 | 역할 | GitHub |
 |------|------|--------|
