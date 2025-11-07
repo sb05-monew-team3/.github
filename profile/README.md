@@ -24,7 +24,7 @@ PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Sprin
 - [프로젝트 소개](#Monew)
 - [개발 기간](#개발-기간) 
 - [개발 환경](#-개발-환경)
-- [기술 스택](#기술-스택)
+- [기술 스택](#tech-stack)
 - [레포지토리 구성](#레포지토리-구성)
 - [커밋 컨벤션](#커밋-컨벤션)
 - [프로젝트 구조](#프로젝트-구조)
@@ -32,12 +32,15 @@ PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Sprin
 - [API 문서](#api-문서)
 - [협업 문서](#협업-문서)
 
-## 🖥️개발 환경
+## 🖥️개발 환경 
 - Version : Java 17
 - IDE: IntelliJ
 - Framwork: SpringBoot 3.5.6 springBoot admin 3.5.0
 - ORM : Spring Data JPA + Hibernate
-## ⚙️기술 스택
+
+---
+
+## ⚙️기술 스택 <a id="tech-stack"></a>
 - Server/Deployment: AWS EC2 github Actions
 - DataBase : PostgreSQL (RDS), MongoDB Atlas
 - WS/WAS : Tomcat, Spring Boot Admin
@@ -45,12 +48,16 @@ PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Sprin
 - Monitoring
 - 아이디어 회의 : Notion, git/github, Discord, zep
 
+---
+
 ## 🗂️ 레포지토리 구성
 | Repo | 설명 |
 |------|------|
 |  [monew-mvc](https://github.com/sb05-monew-team3/monew-mvc.git)  | 메인 API 서버 (Spring Boot MVC) | |
 |[monew-batch](https://github.com/sb05-monew-team3/monew-batch.git)  | 뉴스 수집 및 백업 Batch 서비스 ||
 | [monew-actuator](https://github.com/sb05-monew-team3/monew-actuator.git) | 모니터링 및 상태 관리 서비스 ||
+
+---
 
 ## 🧾 커밋 컨벤션
 ### 기본 구조
@@ -99,8 +106,9 @@ PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Sprin
 ### Footer 작성규칙
 - 관련 이슈 번호 또는 참고 링크를 명시합니다.
 
-## 👥 팀원 구성
+---
 
+## 👥 팀원 구성
 | 이름 | 역할 | GitHub |
 |------|------|--------|
 | 정기주 | 팀장 / 배치 및 데이터 관리 담당| [GitHub](https://github.com/jeonggiju) |
@@ -110,8 +118,12 @@ PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Sprin
 | 이성훈 | 알림 및 시스템 구조 담당 | [GitHub](https://github.com/polodumbo) |
 | 주세훈 | 댓글 및 QA 담당 | [GitHub](https://github.com/Jusehun) |
 
+---
+
 ## API 문서
 - [Swagger UI ↗](http://sprint-project-1196140422.ap-northeast-2.elb.amazonaws.com/sb/monew/api/swagger-ui/index.html)
+
+---
 
 ## 협업 문서
 - [Notion ↗](https://polydactyl-pufferfish-876.notion.site/MoNew-28e08cfefb45803ebd28ffcd05a97b2e?source=copy_link)
