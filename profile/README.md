@@ -15,27 +15,17 @@ PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Sprin
   - Spring Actuator + Prometheus 모니터링
   - 대용량 데이터 처리와 안정성 고려한 설계
 
-## 팀원 구성
-
-| 이름 | 역할 | GitHub |
-|------|------|--------|
-| 정기주 | 팀장 / 배치 및 데이터 관리 담당| [GitHub](https://github.com/jeonggiju) |
-| 김용희 | 사용자 관리 및 활동 담당 | [GitHub](https://github.com/backKim1024) |
-| 민재영 | 뉴스 콘텐츠 관리 담당 | [GitHub](https://github.com/jymin0) |
-| 박지석 | 관심사 콘텐츠 관리 담당 | [GitHub](https://github.com/commicat2) |
-| 이성훈 | 알림 및 시스템 구조 담당 | [GitHub](https://github.com/polodumbo) |
-| 주세훈 | 댓글 및 QA 담당 | [GitHub](https://github.com/Jusehun) |
-
 ## Table of Contents
 
-- [프로젝트 소개](#프로젝트-소개)
-- [팀원 구성](#팀원-구성)
+- [프로젝트 소개](#Monew)
+- [개발 기간](#개발-기간) 
+- [개발 환경](#개발-환경)
 - [기술 스택](#기술-스택)
 - [레포지토리 구성](#레포지토리-구성)
 - [브랜치 전략](#브랜치-전략)
 - [커밋 컨벤션](#커밋-컨벤션)
 - [프로젝트 구조](#프로젝트-구조)
-- [팀원별 구현 예정 기능](#팀원별-구현-예정-기능)
+- [팀원 구성](#팀원-구성)
 - [API 문서](#api-문서)
 - [협업 문서](#협업-문서)
 
@@ -59,6 +49,17 @@ PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Sprin
 |  [monew-mvc](https://github.com/sb05-monew-team3/monew-mvc.git)  | 메인 API 서버 (Spring Boot MVC) | |
 |[monew-batch](https://github.com/sb05-monew-team3/monew-batch.git)  | 뉴스 수집 및 백업 Batch 서비스 ||
 | [monew-actuator](https://github.com/sb05-monew-team3/monew-actuator.git) | 모니터링 및 상태 관리 서비스 ||
+
+## 팀원 구성
+
+| 이름 | 역할 | GitHub |
+|------|------|--------|
+| 정기주 | 팀장 / 배치 및 데이터 관리 담당| [GitHub](https://github.com/jeonggiju) |
+| 김용희 | 사용자 관리 및 활동 담당 | [GitHub](https://github.com/backKim1024) |
+| 민재영 | 뉴스 콘텐츠 관리 담당 | [GitHub](https://github.com/jymin0) |
+| 박지석 | 관심사 콘텐츠 관리 담당 | [GitHub](https://github.com/commicat2) |
+| 이성훈 | 알림 및 시스템 구조 담당 | [GitHub](https://github.com/polodumbo) |
+| 주세훈 | 댓글 및 QA 담당 | [GitHub](https://github.com/Jusehun) |
 
 ## API 문서
 - [Swagger UI ↗](http://sprint-project-1196140422.ap-northeast-2.elb.amazonaws.com/sb/monew/api/swagger-ui/index.html)
