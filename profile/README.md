@@ -9,7 +9,7 @@ PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Sprin
 
 ---
 
-## 📆 개발 기간
+## 📆 개발 기간 <a id="dev-period"></a>
 - **기간:** 2025.10.17 ~ 2025.11.10
 - **목적:** 뉴스 API 통합 및 맞춤형 뉴스 제공, 활동/의견 관리
 - **특징:**
@@ -20,19 +20,18 @@ PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Sprin
  
 ---
 
-## 📚 Table of Contents
+## 📚 Table of Contents <a id="table-of-contents"></a>
 - [프로젝트 소개](#Monew)
-- [개발 기간](#개발-기간) 
-- [개발 환경](#-개발-환경)
+- [개발 기간](#dev-period) 
+- [개발 환경](#dev-env)
 - [기술 스택](#tech-stack)
-- [레포지토리 구성](#레포지토리-구성)
-- [커밋 컨벤션](#커밋-컨벤션)
-- [프로젝트 구조](#프로젝트-구조)
-- [팀원 구성](#팀원-구성)
+- [레포지토리 구성](#repo-structure)
+- [커밋 컨벤션](#commit-convention)
+- [팀원 구성](#team-members)
 - [API 문서](#api-문서)
-- [협업 문서](#협업-문서)
+- [협업 문서](#collab-docs)
 
-## 🖥️개발 환경 
+## 🖥️개발 환경 <a id="dev-env"></a>
 - Version : Java 17
 - IDE: IntelliJ
 - Framwork: SpringBoot 3.5.6 springBoot admin 3.5.0
@@ -50,7 +49,7 @@ PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Sprin
 
 ---
 
-## 🗂️ 레포지토리 구성
+## 🗂️ 레포지토리 구성 <a id="repo-structure"></a>
 | Repo | 설명 |
 |------|------|
 |  [monew-mvc](https://github.com/sb05-monew-team3/monew-mvc.git)  | 메인 API 서버 (Spring Boot MVC) | |
@@ -59,7 +58,7 @@ PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Sprin
 
 ---
 
-## 🧾 커밋 컨벤션
+## 🧾 커밋 컨벤션 <a id="commit-convention"></a>
 ### 기본 구조
 ```terminal
 <type>(<scope>): <subject>
@@ -108,7 +107,7 @@ PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Sprin
 
 ---
 
-## 👥 팀원 구성
+## 👥 팀원 구성 <a id="team-members"></a>
 | 이름 | 역할 | GitHub |
 |------|------|--------|
 | 정기주 | 팀장 / 배치 및 데이터 관리 담당| [GitHub](https://github.com/jeonggiju) |
@@ -120,10 +119,10 @@ PostgreSQL과 MongoDB 기반으로 데이터를 안전하게 저장하고, Sprin
 
 ---
 
-## API 문서
+## API 문서 <a id="api-docs"></a>
 - [Swagger UI ↗](http://sprint-project-1196140422.ap-northeast-2.elb.amazonaws.com/sb/monew/api/swagger-ui/index.html)
 
 ---
 
-## 협업 문서
+## 협업 문서 <a id="collab-docs"></a>
 - [Notion ↗](https://polydactyl-pufferfish-876.notion.site/MoNew-28e08cfefb45803ebd28ffcd05a97b2e?source=copy_link)
